@@ -1,0 +1,219 @@
+:root {
+  --font-primary: 'Roboto', sans-serif;
+  --font-logo: 'Raleway', sans-serif;
+
+  --color-navy-blue: #2e2f42;
+  --color-white: #ffffff;
+  --color-slate: #434455;
+  --color-iris: #4d5ae5;
+  --color-cloud: #f4f4fd;
+  --color-cornflower: #e7e9fc;
+  --color-ocean: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 0.02em;
+
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: var(--color-white);
+  color: var(--color-slate);
+}
+
+/* ================= COMPONENTS =================*/
+.logo {
+  font-family: var(--font-logo);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.logo-text {
+  color: var(--color-navy-blue);
+}
+
+.portfolio-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background: var(--color-cloud);
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+
+/* ================= /COMPONENTS =================*/
+
+/* ================= HEADER =================*/
+
+.menu-link {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: inherit;
+  color: var(--color-navy-blue);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--color-ocean);
+}
+
+.contacts {
+  font-style: inherit;
+}
+.contact-item {
+  line-height: inherit;
+  color: inherit;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--color-ocean);
+}
+
+/* ================= /HEADER =================*/
+
+/* ================= HERO =================*/
+
+.hero-section {
+  background-color: var(--color-navy-blue);
+}
+
+.main-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background: var(--color-iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--color-ocean);
+}
+
+.subtitle {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: var(--color-navy-blue);
+}
+
+.subtitle-descr {
+  line-height: inherit;
+  color: var(--color-slate);
+}
+
+.our-team-section {
+  background-color: var(--color-cloud);
+}
+
+.section-title {
+  font-family: inherit;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.list-item {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  letter-spacing: 0.02em;
+  font-weight: inherit;
+  color: inherit;
+  background-color: var(--color-white);
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-navy-blue);
+}
+
+.employee-position {
+  font-size: inherit;
+  line-height: inherit;
+  text-align: center;
+  color: var(--color-slate);
+}
+
+/* ================= /HERO =================*/
+
+/* ================= PORTFOLIO =================*/
+
+.portfolio-par {
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+
+/* ================= /PORTFOLIO =================*/
+
+.footer-section {
+  background-color: var(--color-navy-blue);
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  letter-spacing: 0.02em;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.footer-inf {
+  color: var(--color-cloud);
+}
+
+.footer-logo {
+  color: var(--color-cloud);
+}
